@@ -17,8 +17,13 @@ $("#aMovie").on("click", function(e) {
     $("#movieTitle").val('');
     $("#movieRating").val('');
   } else {
-    if (theMovieRating <= 0 || theMovieRating >= 10) {
+    if (theMovieRating < 0 || theMovieRating > 10) {
       $("#movieRating").val('');
     };
   }
+  resetFocus();
 });
+
+const resetFocus = () => {
+  document.getElementById("movieTitle").focus();
+}
