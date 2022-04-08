@@ -1,0 +1,82 @@
+body {
+  background-color: ivory;
+  color: teal;
+}
+
+table {
+  background-color: white;
+}
+
+#theMovieList {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%)
+    /* This will center horzontally and vertically if left and top are 50%*/
+    /* transform: translate(-50%, -50%) */
+}
+
+#p1link {
+  position: fixed;
+  left: 5%;
+  bottom: 5%;
+}
+
+#movieTitle {
+  width: 400px;
+  border: 1px solid;
+  padding-left: 5px;
+}
+
+#movieRating {
+  width: 150px;
+  border: 1px solid;
+  padding-left: 5px;
+}
+
+#tableHeadingTitle {
+  width: 400px;
+  font-weight: bold;
+  padding-left: 5px;
+}
+
+#tableHeadingRating {
+  width: 80px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#tableHeadingDelete {
+  width: 80px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.headerFont {
+  font-weight: bold;
+}
+
+.tableViewOff {
+  visibility: hidden;
+}
+
+.tableViewOn {
+  visibility: visible;
+}
+
+.tdTitle {
+  border: 1px solid;
+  padding-left: 5px;
+}
+
+.tdRating {
+  border: 1px solid;
+  text-align: center;
+}
+
+.deleteColumn {
+  border: 1px solid;
+  text-align: center;
+  font-weight: bold;
+}
