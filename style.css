@@ -80,3 +80,8 @@ table {
   text-align: center;
   font-weight: bold;
 }
+
+.deleteColumn:hover {
+  color: white;
+  background-color: red;
+}
